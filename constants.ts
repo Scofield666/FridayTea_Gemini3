@@ -17,7 +17,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceLarge: 6.00,
     category: TeaCategory.PureTea,
     // imageKey: 'https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?q=80&w=800&auto=format&fit=crop'
-    imageKey: 'images/Jasmine Green Tea.jpg'
+    imageKey: '/images/jasmine-green-tea.jpg'
   },
   {
     id: 'dyen-black',
@@ -27,7 +27,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceLarge: 6.00,
     category: TeaCategory.PureTea,
     // imageKey: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop'
-    imageKey: 'images/Dyen Black Tea.jpg'
+    imageKey: '/images/dyen-black-tea.jpg'
   },
   {
     id: 'jasmine-latte',
@@ -37,7 +37,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceLarge: 6.00,
     category: TeaCategory.TeaLatte,
     // imageKey: 'https://images.unsplash.com/photo-1576092768241-dec231847233?q=80&w=800&auto=format&fit=crop'
-    imageKey: 'images/Jasmine Green Tea Latte.jpg'
+    imageKey: '/images/jasmine-green-tea-latte.jpg'
   },
   {
     id: 'dyen-latte',
@@ -47,7 +47,7 @@ export const MENU_ITEMS: MenuItem[] = [
     priceLarge: 6.00,
     category: TeaCategory.TeaLatte,
     // imageKey: 'https://images.unsplash.com/photo-1546171753-97d7676e4602?q=80&w=800&auto=format&fit=crop'
-    imageKey: 'images/Dyen Black Tea Latte.jpg'
+    imageKey: '/images/dyen-black-tea-latte.jpg'
   }
 ];
 

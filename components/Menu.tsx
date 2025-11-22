@@ -7,7 +7,7 @@ const MenuCard: React.FC<{ item: any }> = ({ item }) => (
   <div className="group bg-white rounded-none overflow-hidden transition-all duration-300 hover:shadow-2xl flex flex-col md:flex-row border border-stone-100 h-full">
     <div className="md:w-2/5 h-64 md:h-auto relative overflow-hidden">
       <img 
-        src={item.imageKey} 
+        src={`${import.meta.env.BASE_URL}${item.imageKey.replace(/^\//, '')}`} 
         alt={item.name}
         loading="lazy"
         className="w-full h-full object-cover object-center

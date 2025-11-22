@@ -8,7 +8,7 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src="https://picsum.photos/1920/1080" /*随机图片服务*/
-          // src="images/Main Pic.jpg" /*随机图片服务*/
+          // src="/images/main-pic2.jpg" /*随机图片服务*/
           // alt="Tea Background" 
           // className="w-full h-full object-cover"
           // style={{ transform: 'scale(0.6)' }} // 👈 关键：轻微缩小图像
