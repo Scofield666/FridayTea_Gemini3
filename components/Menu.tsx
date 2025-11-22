@@ -9,12 +9,30 @@ const MenuCard: React.FC<{ item: any }> = ({ item }) => (
       <img 
         src={item.imageKey} 
         alt={item.name}
-        className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000"
+        loading="lazy"
+        className="w-full h-full object-cover object-center
+                  transform group-hover:scale-110 transition-transform duration-700"
       />
       <div className="absolute top-4 left-4">
-         <span className="bg-white/90 backdrop-blur text-stone-900 text-xs px-3 py-1 uppercase tracking-widest font-bold shadow-sm">{item.category}</span>
+        <span className="bg-white/90 backdrop-blur text-stone-900 text-xs px-3 py-1 uppercase tracking-widest font-bold shadow-sm">
+          {item.category}
+        </span>
       </div>
     </div>
+    {/* <div className="md:w-2/5 h-48 md:h-56 relative overflow-hidden flex items-center justify-center bg-stone-50">
+      <img 
+        src={item.imageKey} 
+        alt={item.name}
+        loading="lazy"
+        className="w-full h-full object-cover object-center"
+        style={{ transform: 'scale(0.98)' }} // 微缩 2%，主体不过大
+      />
+      <div className="absolute top-4 left-4">
+        <span className="bg-white/90 backdrop-blur text-stone-900 text-xs px-3 py-1 uppercase tracking-widest font-bold shadow-sm">
+          {item.category}
+        </span>
+      </div>
+    </div> */}
     <div className="p-8 md:w-3/5 flex flex-col justify-between">
       <div>
         <h3 className="text-2xl font-serif font-bold text-stone-900 mb-2 group-hover:text-tea transition-colors">{item.name}</h3>

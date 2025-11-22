@@ -7,9 +7,11 @@ export const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://picsum.photos/1920/1080" 
-          alt="Tea Background" 
-          className="w-full h-full object-cover"
+          src="https://picsum.photos/1920/1080" /*随机图片服务*/
+          // src="images/Main Pic.jpg" /*随机图片服务*/
+          // alt="Tea Background" 
+          // className="w-full h-full object-cover"
+          // style={{ transform: 'scale(0.6)' }} // 👈 关键：轻微缩小图像
         />
         <div className="absolute inset-0 bg-black/30"></div>
       </div>

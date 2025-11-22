@@ -3,7 +3,7 @@ import { MenuItem, TeaCategory, StoryItem } from './types';
 // Using high-quality Unsplash images that match the PDF descriptions
 export const PDF_IMAGES = {
   teaCupsRow: "https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?q=80&w=1200&auto=format&fit=crop", // Row of cups
-  teaFarm: "https://images.unsplash.com/photo-1582794543139-8ac92a9abf39?q=80&w=1200&auto=format&fit=crop", // Misty tea farm
+  teaFarm: "https://images.unsplash.com/photo-1743401439096-dc9b89abb9c7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGVhJTIwZmFybSUyMGNoaW5hfGVufDB8fDB8fHww",
   cateringTruck: "https://images.unsplash.com/photo-1567129937968-cdad8f07e2f8?q=80&w=1200&auto=format&fit=crop", // Event/Truck vibe
   fruitTea: "https://images.unsplash.com/photo-1623593688280-a50405f306d7?q=80&w=1200&auto=format&fit=crop", // Fruit tea for Find Us
 };
@@ -16,7 +16,8 @@ export const MENU_ITEMS: MenuItem[] = [
     priceMedium: 5.00,
     priceLarge: 6.00,
     category: TeaCategory.PureTea,
-    imageKey: 'https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?q=80&w=800&auto=format&fit=crop'
+    // imageKey: 'https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?q=80&w=800&auto=format&fit=crop'
+    imageKey: 'images/Jasmine Green Tea.jpg'
   },
   {
     id: 'dyen-black',
@@ -25,7 +26,8 @@ export const MENU_ITEMS: MenuItem[] = [
     priceMedium: 5.00,
     priceLarge: 6.00,
     category: TeaCategory.PureTea,
-    imageKey: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop'
+    // imageKey: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop'
+    imageKey: 'images/Dyen Black Tea.jpg'
   },
   {
     id: 'jasmine-latte',
@@ -34,7 +36,8 @@ export const MENU_ITEMS: MenuItem[] = [
     priceMedium: 5.00,
     priceLarge: 6.00,
     category: TeaCategory.TeaLatte,
-    imageKey: 'https://images.unsplash.com/photo-1576092768241-dec231847233?q=80&w=800&auto=format&fit=crop'
+    // imageKey: 'https://images.unsplash.com/photo-1576092768241-dec231847233?q=80&w=800&auto=format&fit=crop'
+    imageKey: 'images/Jasmine Green Tea Latte.jpg'
   },
   {
     id: 'dyen-latte',
@@ -43,7 +46,8 @@ export const MENU_ITEMS: MenuItem[] = [
     priceMedium: 5.00,
     priceLarge: 6.00,
     category: TeaCategory.TeaLatte,
-    imageKey: 'https://images.unsplash.com/photo-1546171753-97d7676e4602?q=80&w=800&auto=format&fit=crop'
+    // imageKey: 'https://images.unsplash.com/photo-1546171753-97d7676e4602?q=80&w=800&auto=format&fit=crop'
+    imageKey: 'images/Dyen Black Tea Latte.jpg'
   }
 ];
 
