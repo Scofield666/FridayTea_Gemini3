@@ -5,7 +5,7 @@ export const PDF_IMAGES = {
   teaCupsRow: "https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?q=80&w=1200&auto=format&fit=crop", // Row of cups
   teaFarm: "https://images.unsplash.com/photo-1743401439096-dc9b89abb9c7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGVhJTIwZmFybSUyMGNoaW5hfGVufDB8fDB8fHww",
   cateringTruck: "https://images.unsplash.com/photo-1567129937968-cdad8f07e2f8?q=80&w=1200&auto=format&fit=crop", // Event/Truck vibe
-  fruitTea: "https://images.unsplash.com/photo-1623593688280-a50405f306d7?q=80&w=1200&auto=format&fit=crop", // Fruit tea for Find Us
+  fruitTea: "https://images.unsplash.com/photo-1589009649715-641c60b982ae?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcCUyMHVwJTIwdGVhfGVufDB8fDB8fHww", // Fruit tea for Find Us
 };
 
 export const MENU_ITEMS: MenuItem[] = [
